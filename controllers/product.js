@@ -42,8 +42,12 @@ exports.createProduct = (req, res) => {
 };
 
 exports.getProduct = (req, res) => {
-  res.product.photo = undefined;
-  res.json(req.product);
+  try {
+    req.product.photo = undefined;
+    return res.json(req.product);
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 exports.removeProduct = (req, res) => {
