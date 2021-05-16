@@ -14,6 +14,8 @@ const userRoutes = require("./routes/user");
 const categoryRoute = require("./routes/category");
 const productRoute = require("./routes/product");
 const orderRoute = require("./routes/order");
+const stripePayment = require("./routes/stripePayment");
+const BrainTreePayments = require("./routes/brainTreePayment");
 
 //Middleware
 app.use(bodyParser.json());
@@ -37,6 +39,8 @@ app.use("/api", userRoutes);
 app.use("/api", categoryRoute);
 app.use("/api", productRoute);
 app.use("/api", orderRoute);
+app.use("/api", stripePayment);
+app.use("/api", BrainTreePayments);
 
 //PORT
 const port = 8000 || process.env.PORT;
