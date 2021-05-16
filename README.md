@@ -119,7 +119,7 @@ You will need a node in your system.
 
 ## DISCLAIMER
 
-Your suggestions are highly acknowledged. [Open issue](https://github.com/thearpitanand/ecommerce-web-app-client/issues)
+Your suggestions are highly acknowledged. [Open issue](https://github.com/thearpitanand/ecommerce-web-app-server/issues)
 
 <!-- CONTACT -->
 
