@@ -127,6 +127,6 @@ Your suggestions are highly acknowledged. [Open issue](https://github.com/thearp
 
 Name - Arpit Anand\
 Twitter - [@the_arpitanand](https://twitter.com/the_arpitanand)\
-LinkedIn - [@thearpitanand](https://www.linkedin.com/in/thearpitanand/)\
+LinkedIn - [@thearpitanand](https://www.linkedin.com/in/thearpitanand/)
 
 Project Link: [Front - End](https://github.com/thearpitanand/ecommerce-web-app-client.git), [Back - End](https://github.com/thearpitanand/ecommerce-web-app-server.git)
