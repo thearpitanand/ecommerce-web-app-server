@@ -43,7 +43,7 @@ app.use("/api", stripePayment);
 app.use("/api", BrainTreePayments);
 
 //PORT
-const port = 8000 || process.env.PORT;
+const port = process.env.PORT || 8000;
 
 //Starting a Server
 app.listen(port, () => {
