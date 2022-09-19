@@ -9,6 +9,7 @@ const cors = require("cors");
 const app = express();
 
 //Routes
+const swaggerRoutes = require("./config/swagger");
 const authRoutes = require("./routes/authentication");
 const userRoutes = require("./routes/user");
 const categoryRoute = require("./routes/category");
@@ -34,6 +35,7 @@ mongoose
   });
 
 //Routes
+app.use("/v1", swaggerRoutes);
 app.use("/api", authRoutes);
 app.use("/api", userRoutes);
 app.use("/api", categoryRoute);
